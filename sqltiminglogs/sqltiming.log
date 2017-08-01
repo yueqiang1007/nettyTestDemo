@@ -1,0 +1,15 @@
+2017-06-30 15:42:08.681 insert into User (username,password)values('MettCat123123111','1231231412313') 
+ {executed in 8 msec}
+
+2017-06-30 15:42:36.229 insert into User (username,password)values('MettCat123123111','1231231412313') 
+ {executed in 12 msec}
+
+2017-06-30 15:43:15.580 insert into User (username,password)values('MettCat','123123') 
+ {executed in 5 msec}
+
+2017-06-30 15:43:26.821 insert into User (username,password)values('MettCat111','111') 
+ {executed in 7 msec}
+
+2017-07-04 10:35:32.229 insert into User (username,password)values('MettCat','123123') 
+ {executed in 13 msec}
+

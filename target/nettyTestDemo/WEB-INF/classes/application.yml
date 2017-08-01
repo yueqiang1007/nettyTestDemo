@@ -1,0 +1,26 @@
+server:
+  port: 8088
+  #context-path: /Home
+
+########################################################
+###datasource
+###jdbc:log4jdbc:sqlserver://192.168.199.182:1433;DatabaseName=AirProvinceDB
+###jdbc:log4jdbc:mysql://localhost:3306/log4jdbc?characterEncoding=utf8&useSSL=true
+########################################################
+spring:
+  datasource.url : jdbc:log4jdbc:sqlserver://10.190.3.25:1433;DatabaseName=DataTest
+  datasource:
+    driver-class-name: net.sf.log4jdbc.DriverSpy
+    username: sa
+    password: root
+  jpa:
+    show-sql: true
+
+
+
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/jsp/
+#      suffix: .jsp
+
+

@@ -1,0 +1,645 @@
+2017-06-3015:01:32 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 9888 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:01:32 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:01:32 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@701fc37a: startup date [Fri Jun 30 15:01:32 CST 2017]; root of context hierarchy
+2017-06-3015:01:32 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:01:32 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.Dao.*]' package. Please check your configuration.
+2017-06-3015:01:32 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd]' package. Please check your configuration.
+2017-06-3015:01:33 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:01:33 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 1600 ms
+2017-06-3015:01:33 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:01:33 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:01:33 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:01:33 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:01:33 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:01:33 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:01:33 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:01:33 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.Service.UserService required a bean of type 'main.java.com.rrkd.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.Dao.UserDao' in your configuration.
+
+2017-06-3015:02:06 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 15696 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:02:06 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:02:06 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@701fc37a: startup date [Fri Jun 30 15:02:06 CST 2017]; root of context hierarchy
+2017-06-3015:02:06 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:02:07 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.*]' package. Please check your configuration.
+2017-06-3015:02:07 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd]' package. Please check your configuration.
+2017-06-3015:02:07 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:02:08 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 1554 ms
+2017-06-3015:02:08 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:02:08 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:02:08 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:02:08 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:02:08 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:02:08 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:02:08 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:02:08 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.Service.UserService required a bean of type 'main.java.com.rrkd.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.Dao.UserDao' in your configuration.
+
+2017-06-3015:03:50 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 15244 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:03:50 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:03:50 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@701fc37a: startup date [Fri Jun 30 15:03:50 CST 2017]; root of context hierarchy
+2017-06-3015:03:50 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:03:50 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.*]' package. Please check your configuration.
+2017-06-3015:03:50 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd]' package. Please check your configuration.
+2017-06-3015:03:51 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:03:51 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 1584 ms
+2017-06-3015:03:51 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:03:51 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:03:51 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:03:51 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:03:51 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:03:51 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:03:51 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:03:51 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.Service.UserService required a bean of type 'main.java.com.rrkd.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.Dao.UserDao' in your configuration.
+
+2017-06-3015:05:50 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 16356 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:05:50 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:05:50 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@701fc37a: startup date [Fri Jun 30 15:05:50 CST 2017]; root of context hierarchy
+2017-06-3015:05:50 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:05:50 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.*]' package. Please check your configuration.
+2017-06-3015:05:50 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd]' package. Please check your configuration.
+2017-06-3015:05:51 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:05:51 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 1583 ms
+2017-06-3015:05:52 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:05:52 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:05:52 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:05:52 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:05:52 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:05:52 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:05:52 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:05:52 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.Service.UserService required a bean of type 'main.java.com.rrkd.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.Dao.UserDao' in your configuration.
+
+2017-06-3015:07:23 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 15024 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:07:23 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:07:23 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@701fc37a: startup date [Fri Jun 30 15:07:23 CST 2017]; root of context hierarchy
+2017-06-3015:07:24 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:07:24 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.*]' package. Please check your configuration.
+2017-06-3015:07:24 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd]' package. Please check your configuration.
+2017-06-3015:07:25 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:07:25 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 1621 ms
+2017-06-3015:07:25 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:07:25 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:07:25 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:07:25 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:07:25 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:07:25 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:07:25 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:07:25 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.Service.UserService required a bean of type 'main.java.com.rrkd.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.Dao.UserDao' in your configuration.
+
+2017-06-3015:30:32 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 18896 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:30:32 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:30:32 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:30:32 CST 2017]; root of context hierarchy
+2017-06-3015:30:32 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:30:32 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.*]' package. Please check your configuration.
+2017-06-3015:30:32 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd.demo]' package. Please check your configuration.
+2017-06-3015:30:33 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8080 (http)
+2017-06-3015:30:34 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 2188 ms
+2017-06-3015:30:34 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:30:34 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:30:34 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:30:34 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:30:34 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:30:34 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.demo.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:30:34 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:30:34 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.demo.Service.UserService required a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' in your configuration.
+
+2017-06-3015:30:53 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 18968 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:30:53 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:30:53 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:30:53 CST 2017]; root of context hierarchy
+2017-06-3015:30:53 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:30:54 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.*]' package. Please check your configuration.
+2017-06-3015:30:54 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd.demo]' package. Please check your configuration.
+2017-06-3015:30:55 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:30:55 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 2174 ms
+2017-06-3015:30:55 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:30:55 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:30:55 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:30:55 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:30:55 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:30:55 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.demo.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:30:55 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:30:55 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.demo.Service.UserService required a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' in your configuration.
+
+2017-06-3015:33:15 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 17244 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:33:15 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:33:15 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:33:15 CST 2017]; root of context hierarchy
+2017-06-3015:33:15 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:33:15 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd]' package. Please check your configuration.
+2017-06-3015:33:16 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd.demo]' package. Please check your configuration.
+2017-06-3015:33:16 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:33:17 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 2242 ms
+2017-06-3015:33:17 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:33:17 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:33:17 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:33:17 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:33:17 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:33:17 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.demo.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:33:17 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:33:17 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.demo.Service.UserService required a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' in your configuration.
+
+2017-06-3015:34:55 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 10884 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:34:55 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:34:55 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:34:55 CST 2017]; root of context hierarchy
+2017-06-3015:34:56 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:34:56 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.demo.Dao]' package. Please check your configuration.
+2017-06-3015:34:56 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd.demo]' package. Please check your configuration.
+2017-06-3015:34:57 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:34:57 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 2239 ms
+2017-06-3015:34:58 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:34:58 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:34:58 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:34:58 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:34:58 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:34:58 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.demo.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:34:58 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:34:58 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.demo.Service.UserService required a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' in your configuration.
+
+2017-06-3015:35:21 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 17208 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:35:21 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:35:21 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:35:21 CST 2017]; root of context hierarchy
+2017-06-3015:35:22 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:35:23 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:35:23 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 2267 ms
+2017-06-3015:35:24 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:35:24 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:35:24 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:35:24 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:35:24 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:35:24 RequestMappingHandlerAdapter [INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:35:21 CST 2017]; root of context hierarchy
+2017-06-3015:35:25 RequestMappingHandlerMapping [INFO] Mapped "{[/register]}" onto public java.lang.String main.java.com.rrkd.demo.Controller.UserController.register()
+2017-06-3015:35:25 RequestMappingHandlerMapping [INFO] Mapped "{[/test]}" onto public org.springframework.web.servlet.ModelAndView main.java.com.rrkd.demo.Controller.UserController.insertUserController(main.java.com.rrkd.demo.entity.User,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2017-06-3015:35:25 RequestMappingHandlerMapping [INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-3015:35:25 RequestMappingHandlerMapping [INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-3015:35:25 SimpleUrlHandlerMapping [INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:35:25 SimpleUrlHandlerMapping [INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:35:25 SimpleUrlHandlerMapping [INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:35:25 FreeMarkerConfigurer [INFO] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-06-3015:35:25 AnnotationMBeanExporter [INFO] Registering beans for JMX exposure on startup
+2017-06-3015:35:25 TomcatEmbeddedServletContainer [INFO] Tomcat started on port(s): 8081 (http)
+2017-06-3015:35:25 LogDemo [INFO] Started LogDemo in 4.52 seconds (JVM running for 4.998)
+2017-06-3015:36:21 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 19036 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:36:21 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:36:21 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:36:21 CST 2017]; root of context hierarchy
+2017-06-3015:36:21 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:36:22 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.demo.Dao]' package. Please check your configuration.
+2017-06-3015:36:22 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd.demo]' package. Please check your configuration.
+2017-06-3015:36:23 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:36:23 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 2251 ms
+2017-06-3015:36:23 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:36:23 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:36:23 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:36:23 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:36:23 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:36:23 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.demo.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:36:23 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:36:24 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.demo.Service.UserService required a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' in your configuration.
+
+2017-06-3015:36:46 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 6316 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:36:46 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:36:46 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:36:46 CST 2017]; root of context hierarchy
+2017-06-3015:36:47 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:36:47 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[java.com.rrkd.demo.Dao]' package. Please check your configuration.
+2017-06-3015:36:47 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[main.java.com.rrkd.demo]' package. Please check your configuration.
+2017-06-3015:36:48 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:36:49 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 2282 ms
+2017-06-3015:36:49 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:36:49 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:36:49 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:36:49 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:36:49 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:36:49 AnnotationConfigEmbeddedWebApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'main.java.com.rrkd.demo.Dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-06-3015:36:49 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:36:49 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in main.java.com.rrkd.demo.Service.UserService required a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'main.java.com.rrkd.demo.Dao.UserDao' in your configuration.
+
+2017-06-3015:36:58 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 19620 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:36:58 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:36:58 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:36:58 CST 2017]; root of context hierarchy
+2017-06-3015:36:59 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:37:00 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:37:01 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 2496 ms
+2017-06-3015:37:01 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:37:01 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:37:01 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:37:01 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:37:01 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:37:02 RequestMappingHandlerAdapter [INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:36:58 CST 2017]; root of context hierarchy
+2017-06-3015:37:02 RequestMappingHandlerMapping [INFO] Mapped "{[/register]}" onto public java.lang.String main.java.com.rrkd.demo.Controller.UserController.register()
+2017-06-3015:37:02 RequestMappingHandlerMapping [INFO] Mapped "{[/test]}" onto public org.springframework.web.servlet.ModelAndView main.java.com.rrkd.demo.Controller.UserController.insertUserController(main.java.com.rrkd.demo.entity.User,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2017-06-3015:37:02 RequestMappingHandlerMapping [INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-3015:37:02 RequestMappingHandlerMapping [INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-3015:37:02 SimpleUrlHandlerMapping [INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:37:02 SimpleUrlHandlerMapping [INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:37:02 SimpleUrlHandlerMapping [INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:37:02 FreeMarkerConfigurer [INFO] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-06-3015:37:02 AnnotationMBeanExporter [INFO] Registering beans for JMX exposure on startup
+2017-06-3015:37:02 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:37:02 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+2017-06-3015:37:02 AnnotationConfigEmbeddedWebApplicationContext [INFO] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:36:58 CST 2017]; root of context hierarchy
+2017-06-3015:37:02 AnnotationMBeanExporter [INFO] Unregistering JMX-exposed beans on shutdown
+2017-06-3015:37:21 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 19236 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:37:21 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:37:21 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:37:21 CST 2017]; root of context hierarchy
+2017-06-3015:37:21 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:37:23 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:37:23 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 2305 ms
+2017-06-3015:37:23 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:37:23 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:37:23 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:37:23 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:37:23 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:37:24 RequestMappingHandlerAdapter [INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:37:21 CST 2017]; root of context hierarchy
+2017-06-3015:37:24 RequestMappingHandlerMapping [INFO] Mapped "{[/register]}" onto public java.lang.String main.java.com.rrkd.demo.Controller.UserController.register()
+2017-06-3015:37:24 RequestMappingHandlerMapping [INFO] Mapped "{[/test]}" onto public org.springframework.web.servlet.ModelAndView main.java.com.rrkd.demo.Controller.UserController.insertUserController(main.java.com.rrkd.demo.entity.User,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2017-06-3015:37:24 RequestMappingHandlerMapping [INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-3015:37:24 RequestMappingHandlerMapping [INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-3015:37:24 SimpleUrlHandlerMapping [INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:37:24 SimpleUrlHandlerMapping [INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:37:24 SimpleUrlHandlerMapping [INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:37:24 FreeMarkerConfigurer [INFO] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-06-3015:37:25 AnnotationMBeanExporter [INFO] Registering beans for JMX exposure on startup
+2017-06-3015:37:25 AutoConfigurationReportLoggingInitializer [INFO] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-06-3015:37:25 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+2017-06-3015:37:25 AnnotationConfigEmbeddedWebApplicationContext [INFO] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Fri Jun 30 15:37:21 CST 2017]; root of context hierarchy
+2017-06-3015:37:25 AnnotationMBeanExporter [INFO] Unregistering JMX-exposed beans on shutdown
+2017-06-3015:38:22 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 19388 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:38:22 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:38:22 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@701fc37a: startup date [Fri Jun 30 15:38:22 CST 2017]; root of context hierarchy
+2017-06-3015:38:22 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:38:22 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.demo.Dao]' package. Please check your configuration.
+2017-06-3015:38:23 ClassPathMapperScanner [WARN] No MyBatis mapper was found in '[com.rrkd.demo]' package. Please check your configuration.
+2017-06-3015:38:23 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:38:23 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 1564 ms
+2017-06-3015:38:24 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:38:24 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:38:24 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:38:24 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:38:24 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:38:24 RequestMappingHandlerAdapter [INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@701fc37a: startup date [Fri Jun 30 15:38:22 CST 2017]; root of context hierarchy
+2017-06-3015:38:24 RequestMappingHandlerMapping [INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-3015:38:24 RequestMappingHandlerMapping [INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-3015:38:24 SimpleUrlHandlerMapping [INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:38:24 SimpleUrlHandlerMapping [INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:38:24 SimpleUrlHandlerMapping [INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:38:24 FreeMarkerConfigurer [INFO] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-06-3015:38:24 AnnotationMBeanExporter [INFO] Registering beans for JMX exposure on startup
+2017-06-3015:38:25 TomcatEmbeddedServletContainer [INFO] Tomcat started on port(s): 8081 (http)
+2017-06-3015:38:25 LogDemo [INFO] Started LogDemo in 2.904 seconds (JVM running for 3.334)
+2017-06-3015:41:33 LogDemo [INFO] Starting LogDemo on DESKTOP-L56F1TM with PID 15180 (C:\Users\Tony\IdeaProjects\nettyTestDemo\target\classes started by Tony in C:\Users\Tony\IdeaProjects\nettyTestDemo)
+2017-06-3015:41:33 LogDemo [INFO] No active profile set, falling back to default profiles: default
+2017-06-3015:41:34 AnnotationConfigEmbeddedWebApplicationContext [INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@701fc37a: startup date [Fri Jun 30 15:41:34 CST 2017]; root of context hierarchy
+2017-06-3015:41:34 Version [INFO] HV000001: Hibernate Validator 5.3.5.Final
+2017-06-3015:41:35 TomcatEmbeddedServletContainer [INFO] Tomcat initialized with port(s): 8081 (http)
+2017-06-3015:41:35 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 1796 ms
+2017-06-3015:41:35 ServletRegistrationBean [INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-3015:41:35 FilterRegistrationBean [INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-3015:41:35 FilterRegistrationBean [INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-3015:41:35 FilterRegistrationBean [INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-3015:41:35 FilterRegistrationBean [INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-3015:41:36 RequestMappingHandlerAdapter [INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@701fc37a: startup date [Fri Jun 30 15:41:34 CST 2017]; root of context hierarchy
+2017-06-3015:41:36 RequestMappingHandlerMapping [INFO] Mapped "{[/register]}" onto public java.lang.String com.rrkd.demo.Controller.UserController.register()
+2017-06-3015:41:36 RequestMappingHandlerMapping [INFO] Mapped "{[/test]}" onto public org.springframework.web.servlet.ModelAndView com.rrkd.demo.Controller.UserController.insertUserController(com.rrkd.demo.entity.User,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2017-06-3015:41:36 RequestMappingHandlerMapping [INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-3015:41:36 RequestMappingHandlerMapping [INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-3015:41:36 SimpleUrlHandlerMapping [INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:41:36 SimpleUrlHandlerMapping [INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:41:36 SimpleUrlHandlerMapping [INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-3015:41:36 FreeMarkerConfigurer [INFO] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-06-3015:41:36 AnnotationMBeanExporter [INFO] Registering beans for JMX exposure on startup
+2017-06-3015:41:36 TomcatEmbeddedServletContainer [INFO] Tomcat started on port(s): 8081 (http)
+2017-06-3015:41:36 LogDemo [INFO] Started LogDemo in 3.23 seconds (JVM running for 3.693)
+2017-06-3015:42:01 DispatcherServlet [INFO] FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-3015:42:01 DispatcherServlet [INFO] FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2017-06-3015:42:08 connection [INFO] 1. Connection opened
+2017-06-3015:42:08 audit [INFO] 1. Connection.new Connection returned 
+2017-06-3015:42:08 connection [INFO] 2. Connection opened
+2017-06-3015:42:08 audit [INFO] 2. Connection.new Connection returned 
+2017-06-3015:42:08 connection [INFO] 3. Connection opened
+2017-06-3015:42:08 audit [INFO] 3. Connection.new Connection returned 
+2017-06-3015:42:08 connection [INFO] 4. Connection opened
+2017-06-3015:42:08 audit [INFO] 4. Connection.new Connection returned 
+2017-06-3015:42:08 connection [INFO] 5. Connection opened
+2017-06-3015:42:08 audit [INFO] 5. Connection.new Connection returned 
+2017-06-3015:42:08 connection [INFO] 6. Connection opened
+2017-06-3015:42:08 audit [INFO] 6. Connection.new Connection returned 
+2017-06-3015:42:08 connection [INFO] 7. Connection opened
+2017-06-3015:42:08 audit [INFO] 7. Connection.new Connection returned 
+2017-06-3015:42:08 connection [INFO] 8. Connection opened
+2017-06-3015:42:08 audit [INFO] 8. Connection.new Connection returned 
+2017-06-3015:42:08 connection [INFO] 9. Connection opened
+2017-06-3015:42:08 audit [INFO] 9. Connection.new Connection returned 
+2017-06-3015:42:08 connection [INFO] 10. Connection opened
+2017-06-3015:42:08 audit [INFO] 10. Connection.new Connection returned 
+2017-06-3015:42:08 audit [INFO] 10. Connection.getAutoCommit() returned true
+2017-06-3015:42:08 audit [INFO] 10. PreparedStatement.new PreparedStatement returned 
+2017-06-3015:42:08 audit [INFO] 10. Connection.prepareStatement(insert into User (username,password)values(?,?), 1003, 1007) returned net.sf.log4jdbc.PreparedStatementSpy@6670944d
+2017-06-3015:42:08 audit [INFO] 10. PreparedStatement.setString(1, "MettCat123123111") returned 
+2017-06-3015:42:08 audit [INFO] 10. PreparedStatement.setString(2, "1231231412313") returned 
+2017-06-3015:42:08 sqlonly [INFO] insert into User (username,password)values('MettCat123123111','1231231412313') 
+
+2017-06-3015:42:08 sqltiming [INFO] insert into User (username,password)values('MettCat123123111','1231231412313') 
+ {executed in 8 msec}
+2017-06-3015:42:08 audit [INFO] 10. PreparedStatement.execute() returned false
+2017-06-3015:42:08 audit [INFO] 10. PreparedStatement.getUpdateCount() returned 1
+2017-06-3015:42:08 audit [INFO] 10. PreparedStatement.close() returned 
+2017-06-3015:42:36 audit [INFO] 10. Connection.getAutoCommit() returned true
+2017-06-3015:42:36 audit [INFO] 10. PreparedStatement.new PreparedStatement returned 
+2017-06-3015:42:36 audit [INFO] 10. Connection.prepareStatement(insert into User (username,password)values(?,?), 1003, 1007) returned net.sf.log4jdbc.PreparedStatementSpy@44b82990
+2017-06-3015:42:36 audit [INFO] 10. PreparedStatement.setString(1, "MettCat123123111") returned 
+2017-06-3015:42:36 audit [INFO] 10. PreparedStatement.setString(2, "1231231412313") returned 
+2017-06-3015:42:36 sqlonly [INFO] insert into User (username,password)values('MettCat123123111','1231231412313') 
+
+2017-06-3015:42:36 sqltiming [INFO] insert into User (username,password)values('MettCat123123111','1231231412313') 
+ {executed in 12 msec}
+2017-06-3015:42:36 audit [INFO] 10. PreparedStatement.execute() returned false
+2017-06-3015:42:36 audit [INFO] 10. PreparedStatement.getUpdateCount() returned 1
+2017-06-3015:42:36 audit [INFO] 10. PreparedStatement.close() returned 
+2017-06-3015:43:15 audit [INFO] 10. Connection.getAutoCommit() returned true
+2017-06-3015:43:15 audit [INFO] 10. PreparedStatement.new PreparedStatement returned 
+2017-06-3015:43:15 audit [INFO] 10. Connection.prepareStatement(insert into User (username,password)values(?,?), 1003, 1007) returned net.sf.log4jdbc.PreparedStatementSpy@55db269
+2017-06-3015:43:15 audit [INFO] 10. PreparedStatement.setString(1, "MettCat") returned 
+2017-06-3015:43:15 audit [INFO] 10. PreparedStatement.setString(2, "123123") returned 
+2017-06-3015:43:15 sqlonly [INFO] insert into User (username,password)values('MettCat','123123') 
+
+2017-06-3015:43:15 sqltiming [INFO] insert into User (username,password)values('MettCat','123123') 
+ {executed in 5 msec}
+2017-06-3015:43:15 audit [INFO] 10. PreparedStatement.execute() returned false
+2017-06-3015:43:15 audit [INFO] 10. PreparedStatement.getUpdateCount() returned 1
+2017-06-3015:43:15 audit [INFO] 10. PreparedStatement.close() returned 
+2017-06-3015:43:26 audit [INFO] 10. Connection.getAutoCommit() returned true
+2017-06-3015:43:26 audit [INFO] 10. PreparedStatement.new PreparedStatement returned 
+2017-06-3015:43:26 audit [INFO] 10. Connection.prepareStatement(insert into User (username,password)values(?,?), 1003, 1007) returned net.sf.log4jdbc.PreparedStatementSpy@49208a6
+2017-06-3015:43:26 audit [INFO] 10. PreparedStatement.setString(1, "MettCat111") returned 
+2017-06-3015:43:26 audit [INFO] 10. PreparedStatement.setString(2, "111") returned 
+2017-06-3015:43:26 sqlonly [INFO] insert into User (username,password)values('MettCat111','111') 
+
+2017-06-3015:43:26 sqltiming [INFO] insert into User (username,password)values('MettCat111','111') 
+ {executed in 7 msec}
+2017-06-3015:43:26 audit [INFO] 10. PreparedStatement.execute() returned false
+2017-06-3015:43:26 audit [INFO] 10. PreparedStatement.getUpdateCount() returned 1
+2017-06-3015:43:26 audit [INFO] 10. PreparedStatement.close() returned 
+2017-07-0313:39:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:39:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:53:54 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:53:54 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:53:54 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:53:54 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:53:54 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:53:54 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:53:54 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:53:54 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0313:54:10 NioEventLoop [WARN] Selector.select() returned prematurely 512 times in a row; rebuilding selector.
+2017-07-0313:54:10 NioEventLoop [INFO] Migrated 0 channel(s) to the new Selector.
+2017-07-0314:54:13 ChannelInitializer [WARN] Failed to initialize a channel. Closing: [id: 0x98fe86a2]
+java.lang.NullPointerException
+	at com.rrkd.client.FileTransferClientHandler.<init>(FileTransferClientHandler.java:23)
+	at com.rrkd.client.FileTransferClient$1.initChannel(FileTransferClient.java:57)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:69)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:158)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:144)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:732)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:442)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-0314:54:26 ChannelInitializer [WARN] Failed to initialize a channel. Closing: [id: 0x4f3a8276]
+java.lang.NullPointerException
+	at com.rrkd.client.FileTransferClientHandler.<init>(FileTransferClientHandler.java:23)
+	at com.rrkd.client.FileTransferClient$1.initChannel(FileTransferClient.java:57)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:69)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRegistered(AbstractChannelHandlerContext.java:158)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:144)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:732)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:442)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:748)
